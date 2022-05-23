@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/reply_layout"
+    android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:background="@drawable/border"
+    android:layout_gravity="center" android:orientation="vertical"  >
+
+    <EditText
+        android:id="@+id/etReplyTweet"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:layout_marginRight="0dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="What's happening?"
+        android:inputType="textMultiLine"
+        android:minLines="5"></EditText>
+
+    <TextView
+        android:id="@+id/tvRemain"
+        android:layout_width="80dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"
+        android:text="140/140" />
+
+    <Button
+        android:id="@+id/btnReplyNow"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#1DA1F2"
+        android:text="Reply" />
+
+
+</LinearLayout>
